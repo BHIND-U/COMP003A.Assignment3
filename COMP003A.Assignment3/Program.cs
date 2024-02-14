@@ -11,8 +11,8 @@ namespace COMP003A.Assignment3
         {
             Console.WriteLine("Numeric to letter grade using an if-else statement");
             Console.WriteLine("Enter a numeric grade from (0-100):");
-            double numericGrade = Convert.ToDouble(Console.ReadLine());
-             
+            int numericGrade =Convert.ToInt32(Console.ReadLine());
+
             Convert.ToDouble(numericGrade);
             if (numericGrade >= 0)
             {
