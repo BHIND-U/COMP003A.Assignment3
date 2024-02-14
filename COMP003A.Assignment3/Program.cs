@@ -13,7 +13,6 @@ namespace COMP003A.Assignment3
             Console.WriteLine("Enter a numeric grade from (0-100):");
             double numericGrade =Convert.ToDouble(Console.ReadLine());
 
-            Convert.ToDouble(numericGrade);
             if (numericGrade >= 0)
             {
                 if (numericGrade <= 100)
